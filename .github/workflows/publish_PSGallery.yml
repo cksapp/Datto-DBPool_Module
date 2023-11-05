@@ -1,4 +1,5 @@
-      - name: Publish Module to PowerShell Gallery
+steps:
+- name: Publish Module to PowerShell Gallery
         uses: pcgeek86/publish-powershell-module-action@v20
         id: publish-module
         with:
